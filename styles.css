@@ -1,0 +1,41 @@
+@font-face {
+  font-family:চন্দ্রমল্লিকা;
+  src: url('চন্দ্রমল্লিকা.ttf') format('truetype');
+}
+
+@font-face {
+  font-family:শুভ-লেটারপ্রেস;
+  src: url(শুভ_লেটারপ্রেস.ttf) format('truetype');
+  font-style: italic;
+}
+
+@font-face {
+  font-family:FigginsPica;
+  src: url('FigginsPica.otf') format('opentype');
+}
+
+body {
+  background: rgba(17, 24, 39, 1);
+}
+
+.timeNowBd {
+  font-family:চন্দ্রমল্লিকা,FigginsPica,শুভ-লেটারপ্রেস;
+  font-size: 27px;
+  position: relative;
+  color: hsla(230, 90%, 92%, 1);
+  border-top-left-radius: 90px;
+  border-bottom-right-radius: 90px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  text-align: center;
+  text-shadow: 0px 1px 1px  hsla(244, 0%, 0%, 1);
+  top: 30vh;
+  justify-items: center;
+  background: #40348B;
+  box-shadow: -0.1px 0px 4px #7F77D8;
+  margin: 5px;
+  padding: 40px;
+  /*word-spacing: 8px;*/
+  line-height: 45px;
+  color: #C1BEE3;
+}
