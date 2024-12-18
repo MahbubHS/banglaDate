@@ -1,16 +1,16 @@
 @font-face {
-  font-family:চন্দ্রমল্লিকা;
+  font-family: চন্দ্রমল্লিকা;
   src: url('font/Chandramallika.ttf') format('truetype');
 }
 
 @font-face {
-  font-family:শুভ-লেটারপ্রেস;
+  font-family: শুভ-লেটারপ্রেস;
   src: url(font/SuvoLetterpress.ttf) format('truetype');
   font-style: italic;
 }
 
 @font-face {
-  font-family:FigginsPica;
+  font-family: FigginsPica;
   src: url('font/FigginsPica.otf') format('opentype');
 }
 
@@ -19,7 +19,7 @@ body {
 }
 
 .timeNowBd {
-  font-family:চন্দ্রমল্লিকা,FigginsPica,শুভ-লেটারপ্রেস;
+  font-family: চন্দ্রমল্লিকা, FigginsPica, শুভ-লেটারপ্রেস;
   font-size: 27px;
   position: relative;
   color: hsla(230, 90%, 92%, 1);
@@ -28,7 +28,7 @@ body {
   border-bottom-left-radius: 5px;
   border-top-right-radius: 5px;
   text-align: center;
-  text-shadow: 0px 1px 1px  hsla(244, 0%, 0%, 1);
+  text-shadow: 0px 1px 1px hsla(244, 0%, 0%, 1);
   top: 30vh;
   justify-items: center;
   background: #40348B;
