@@ -132,7 +132,6 @@ bdDateConverter.prototype.A = function () {
   else if (this.dateInstance.G >= 18 && this.dateInstance.G < 20) return 4;
   else if (this.dateInstance.G >= 20 && this.dateInstance.G <= 23) return 5;
   else if (this.dateInstance.G >= 0 && this.dateInstance.G < 4) return 5;
-
   return 6;
 };
 
